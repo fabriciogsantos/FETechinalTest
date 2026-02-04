@@ -1,11 +1,4 @@
-export type NewUser = {
-  name: string;
-  email: string;
-  role: string;
-  active: boolean;
-};
-
-export const createUser = async (user: NewUser) => {
+export const createUser = async (user: User) => {
   // Simulate a network delay
   await new Promise((res) => setTimeout(res, 1000));
 
