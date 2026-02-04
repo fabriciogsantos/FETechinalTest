@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import UserForm from "./components/UserForm";
+import UserForm from "./features/users/components/UserForm";
 
 function App() {
   return (
